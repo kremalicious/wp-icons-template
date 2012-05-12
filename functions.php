@@ -66,10 +66,14 @@ function option_page_icon() {
            Use only if you put your plugin or option page in the top level via add_menu_page()
         */
         #toplevel_page_PLUGINNAME-FILENAME .wp-menu-image {
-        	background: url(<?php bloginfo('template_url') ?>/images/icon-adminmenu16-sprite.png) no-repeat left top !important;
+        	background: url(<?php bloginfo('template_url') ?>/images/icon-adminmenu16-sprite.png) no-repeat 6px 6px !important;
+        }
+        /* We need to hide the generic.png img element inserted by default */
+        #toplevel_page_PLUGINNAME-FILENAME .wp-menu-image img {
+        	display: none;
         }
         #toplevel_page_PLUGINNAME-FILENAME:hover .wp-menu-image, #toplevel_page_PLUGINNAME-FILENAME.wp-has-current-submenu .wp-menu-image {
-            background-position: left bottom !important;
+            background-position: 6px -26px !important;
         }
        	
         @media
