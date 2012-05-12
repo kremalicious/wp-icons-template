@@ -2,22 +2,23 @@
 
 /**
  * Custom Post Type Icon for Admin Menu & Post Screen
+ * by Matthias Kretschmann | http://mkretschmann.com
  *
- * thanks to Randy Jensen for the original code idea
- * http://randyjensenonline.com/thoughts/wordpress-custom-post-type-fugue-icons/
+ * thanks to Randy Jensen for the original code idea: http://krlc.us/KRiBUA
+ * 
  */
 
 add_action( 'admin_head', 'custom_post_type_icon' );
 
 function custom_post_type_icon() {
     ?>
-    <style type="text/css" media="screen">
+    <style>
         /* Admin Menu - 16px */
         #menu-posts-YOUR_POSTTYPE_NAME .wp-menu-image {
-            background: url(<?php bloginfo('template_url') ?>/images/icon-adminmenu16-sprite.png) no-repeat left top !important;
+            background: url(<?php bloginfo('template_url') ?>/images/icon-adminmenu16-sprite.png) no-repeat 6px 6px !important;
         }
 		#menu-posts-YOUR_POSTTYPE_NAME:hover .wp-menu-image, #menu-posts-YOUR_POSTTYPE_NAME.wp-has-current-submenu .wp-menu-image {
-            background-position: left bottom !important;
+            background-position: 6px -26px !important;
         }
         /* Post Screen - 32px */
         .icon32-posts-YOUR_POSTTYPE_NAME {
@@ -25,9 +26,9 @@ function custom_post_type_icon() {
         }
         @media
         only screen and (-webkit-min-device-pixel-ratio: 1.5),
-        only screen and (min--moz-device-pixel-ratio: 1.5),
-        only screen and (-o-min-device-pixel-ratio: 3/2),
-        only screen and (min-device-pixel-ratio: 1.5) {
+        only screen and (   min--moz-device-pixel-ratio: 1.5),
+        only screen and (     -o-min-device-pixel-ratio: 3/2),
+        only screen and (        min-device-pixel-ratio: 1.5) {
         	
         	/* Admin Menu - 16px @2x */
         	#menu-posts-YOUR_POSTTYPE_NAME .wp-menu-image {
@@ -50,16 +51,17 @@ function custom_post_type_icon() {
 
 /**
  * Option Page Icon for Admin Menu & Option Screen
+ * by Matthias Kretschmann | http://mkretschmann.com
  *
- * thanks to Randy Jensen for the original code idea
- * http://randyjensenonline.com/thoughts/wordpress-custom-post-type-fugue-icons/
+ * thanks to Randy Jensen for the original code idea: http://krlc.us/KRiBUA
+ *
  */
  
 add_action( 'admin_head', 'option_page_icon' );
 
 function option_page_icon() {
     ?>
-    <style type="text/css" media="screen">
+    <style>
         /* Admin Menu - 16px 
            Use only if you put your plugin or option page in the top level via add_menu_page()
         */
