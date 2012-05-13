@@ -4,8 +4,8 @@
  * Option Page Icon for Admin Menu & Option Screen
  * by Matthias Kretschmann | http://mkretschmann.com
  *
- * Read more about this or get the template psd
- * 
+ * Read more about this and get the template psd
+ * http://krlc.us/wp-icons-template
  *
  * thanks to Randy Jensen for the original code idea
  * http://krlc.us/KRiBUA
