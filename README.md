@@ -4,7 +4,8 @@ Template for designing your own icons for the admin area of WordPress and some r
 
 ## Usage
 
-Please refer to the blog post for a full explanation on how to use the psd and the php snippets.
+Please refer to the blog post for a full explanation on how to use the psd and the php snippets:
+http://kremalicious.com/wp-icons-template/
 
 ## License
 
