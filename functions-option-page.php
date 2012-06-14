@@ -45,7 +45,7 @@ function option_page_icon() {
         	   Use only if you put your plugin or option page in the top level via add_menu_page()
         	*/
        		#toplevel_page_PLUGINNAME-FILENAME .wp-menu-image {
-       			background-image: url('<?php bloginfo('template_url') ?>/images/icon-adminmenu16-sprite@2x.png') !important;
+       			background-image: url('<?php bloginfo('template_url') ?>/images/icon-adminmenu16-sprite_2x.png') !important;
        			-webkit-background-size: 16px 48px;
        			-moz-background-size: 16px 48px;
        			background-size: 16px 48px;
@@ -53,7 +53,7 @@ function option_page_icon() {
        		
        		/* Option Screen - 32px @2x */
        		#PLUGINNAME.icon32 {
-       			background-image: url('<?php bloginfo('template_url') ?>/images/icon-adminpage32@2x.png') !important;
+       			background-image: url('<?php bloginfo('template_url') ?>/images/icon-adminpage32_2x.png') !important;
        			-webkit-background-size: 32px 32px;
        			-moz-background-size: 32px 32px;
        			background-size: 32px 32px;

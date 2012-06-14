@@ -36,14 +36,14 @@ function custom_post_type_icon() {
         	
         	/* Admin Menu - 16px @2x */
         	#menu-posts-YOUR_POSTTYPE_NAME .wp-menu-image {
-        		background-image: url('<?php bloginfo('template_url') ?>/images/icon-adminmenu16-sprite@2x.png') !important;
+        		background-image: url('<?php bloginfo('template_url') ?>/images/icon-adminmenu16-sprite_2x.png') !important;
         		-webkit-background-size: 16px 48px;
         		-moz-background-size: 16px 48px;
         		background-size: 16px 48px;
         	}
         	/* Post Screen - 32px @2x */
         	.icon32-posts-YOUR_POSTTYPE_NAME {
-        		background-image: url('<?php bloginfo('template_url') ?>/images/icon-adminpage32@2x.png') !important;
+        		background-image: url('<?php bloginfo('template_url') ?>/images/icon-adminpage32_2x.png') !important;
         		-webkit-background-size: 32px 32px;
         		-moz-background-size: 32px 32px;
         		background-size: 32px 32px;
