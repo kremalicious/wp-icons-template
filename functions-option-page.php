@@ -40,7 +40,8 @@ function option_page_icon() {
         only screen and (-webkit-min-device-pixel-ratio: 1.5),
         only screen and (   min--moz-device-pixel-ratio: 1.5),
         only screen and (     -o-min-device-pixel-ratio: 3/2),
-        only screen and (        min-device-pixel-ratio: 1.5) {
+        only screen and (        min-device-pixel-ratio: 1.5),
+        only screen and (        		 min-resolution: 1.5dppx) {
         	/* Admin Menu - 16px @2x
         	   Use only if you put your plugin or option page in the top level via add_menu_page()
         	*/
